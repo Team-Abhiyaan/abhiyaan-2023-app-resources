@@ -20,7 +20,7 @@ currentGreen = 0   # Indicates which signal is green currently
 nextGreen = (currentGreen+1)%noOfSignals    # Indicates which signal will turn green next
 currentYellow = 0   # Indicates whether yellow signal is on or off 
 
-speeds = {'car':0.14, 'bus':0.5, 'truck':0.5, 'bike':0.5}  # average speeds of vehicles, in the year 2030 no speeding tickets exist,feel free to increase this 
+speeds = {'car':0.14, 'bus':0.1, 'truck':0.1, 'bike':2}  # average speeds of vehicles, in the year 2030 no speeding tickets exist,feel free to increase this 
 
 # Coordinates of vehicles' start at each of the 4 lanes per road
 x = {'right':[0,0,0,0], 'down':[550,610,670,720], 'left':[1265,1265,1265,1265], 'up':[550,610,670,720]}    
