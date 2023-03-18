@@ -82,7 +82,7 @@ class Vehicle(pygame.sprite.Sprite):
             
 
 #########################################################################################################################################
-#dont worry about this part
+#dont worry about this part, the only thing you need is currentGreen, currentYellow, currentRed.
 
 
 # Initialization of signals with default values
